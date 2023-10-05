@@ -5,7 +5,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "otio-svg-adapter"
+name = "opentimelineio-plugins"
 version = "0.16.0.dev1"
 description = "OpenTimelineIO with batteries included plug-ins."
 authors = [
