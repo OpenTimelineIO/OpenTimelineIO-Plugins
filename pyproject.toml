@@ -1,0 +1,52 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright Contributors to the OpenTimelineIO project
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opentimelineio-plugins"
+version = "0.15.0"
+description = "OpenTimelineIO with batteries included plug-ins."
+authors = [
+  { name="Contributors to the OpenTimelineIO project", email="otio-discussion@lists.aswf.io" },
+]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "opentimelineio==0.15.0",
+]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Video :: Display",
+    "Topic :: Multimedia :: Video :: Non-Linear Editor",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Natural Language :: English"
+]
+keywords = ["film", "tv", "editing", "editorial", "edit", "non-linear", "time", "otio", "otio-adapter"]
+
+[project.urls]
+Homepage = "https://opentimeline.io"
+Tracker = "https://github.com/OpenTimelineIO/OpenTimelineIO-Plugins/issues"
+
+[tool.hatch.build.targets.sdist]
+# Ensure the sdist includes a setup.py for older pip versions
+support-legacy = true
+exclude = [".github"]
+
+[tool.hatch.metadata]
+# This should be removed after the OTIO reference no longer points to git
+allow-direct-references = true
+
