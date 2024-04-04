@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "OpenTimelineIO-Plugins"
-version = "0.15.0"
+version = "0.16.0"
 description = "OpenTimelineIO with batteries included plug-ins."
 authors = [
   { name="Contributors to the OpenTimelineIO project", email="otio-discussion@lists.aswf.io" },
@@ -15,7 +15,7 @@ license = { file="LICENSE" }
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-    "opentimelineio==0.15.0",
+    "opentimelineio==0.16.0",
 ]
 
 classifiers = [
