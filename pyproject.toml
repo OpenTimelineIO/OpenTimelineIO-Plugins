@@ -56,7 +56,5 @@ Tracker = "https://github.com/OpenTimelineIO/OpenTimelineIO-Plugins/issues"
 support-legacy = true
 exclude = [".github"]
 
-[tool.hatch.metadata]
-# This should be removed after the OTIO reference no longer points to git
-allow-direct-references = true
-
+[tool.hatch.build.targets.wheel]
+packages = ["opentimelineio_plugins"]
