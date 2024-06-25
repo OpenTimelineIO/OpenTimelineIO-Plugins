@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "OpenTimelineIO-Plugins"
-version = "0.16.0"
+version = "0.17.0"
 description = "OpenTimelineIO with batteries included plug-ins."
 authors = [
   { name="Contributors to the OpenTimelineIO project", email="otio-discussion@lists.aswf.io" },
@@ -15,7 +15,17 @@ license = { file="LICENSE" }
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-    "opentimelineio==0.16.0",
+    "opentimelineio==0.17.0",
+    "otio-aaf-adapter",
+    "otio-burnins-adapter",
+    "otio-xges-adapter",
+    "otio-ale-adapter",
+    "otio-hls-playlist-adapter",
+    "otio-fcpx-xml-adapter",
+    "otio-maya-sequencer-adapter",
+    "otio-cmx3600-adapter",
+    "otio-svg-adapter",
+    "otio-fcp-adapter",
 ]
 
 classifiers = [
@@ -46,7 +56,5 @@ Tracker = "https://github.com/OpenTimelineIO/OpenTimelineIO-Plugins/issues"
 support-legacy = true
 exclude = [".github"]
 
-[tool.hatch.metadata]
-# This should be removed after the OTIO reference no longer points to git
-allow-direct-references = true
-
+[tool.hatch.build.targets.wheel]
+packages = ["opentimelineio_plugins"]
