@@ -1,9 +1,9 @@
-# OpenTimelineIO
+# OpenTimelineIO-Plugins
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xLight.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xDark.png">
-  <img alt="OpenTimelineIO Logo" src="./images/OpenTimelineIO@3xDark.png">
+  <img alt="OpenTimelineIO Logo" src="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xDark.png">
 </picture>
 
 [OpenTimelineIO](https://opentimeline.io) is an interchange format and API for
@@ -32,6 +32,7 @@ Links
 * Main web site: http://opentimeline.io/
 * Documentation: https://opentimelineio.readthedocs.io/
 * Main Project GitHub: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+* OpenTimelineIO-Plugins Github: https://github.com/OpenTimelineIO/OpenTimelineIO-Plugins
 * [Discussion group](https://lists.aswf.io/g/otio-discussion)
 * [Slack channel](https://academysoftwarefdn.slack.com/messages/CMQ9J4BQC)
   * To join, create an account here first: https://slack.aswf.io/
