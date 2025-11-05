@@ -15,7 +15,7 @@ license = { file="LICENSE" }
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-    "opentimelineio==0.17.0",
+    "opentimelineio==0.18.0.dev1",
     "otio-aaf-adapter",
     "otio-burnins-adapter",
     "otio-xges-adapter",
