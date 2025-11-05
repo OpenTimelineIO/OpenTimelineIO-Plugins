@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "OpenTimelineIO-Plugins"
-version = "0.17.0"
+version = "0.18.0.dev1"
 description = "OpenTimelineIO with batteries included plug-ins."
 authors = [
   { name="Contributors to the OpenTimelineIO project", email="otio-discussion@lists.aswf.io" },
@@ -15,7 +15,7 @@ license = { file="LICENSE" }
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-    "opentimelineio==0.18.0.dev1",
+    "opentimelineio==0.17.0",
     "otio-aaf-adapter",
     "otio-burnins-adapter",
     "otio-xges-adapter",
