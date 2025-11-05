@@ -20,8 +20,6 @@ dependencies = [
     "otio-burnins-adapter",
     "otio-xges-adapter",
     "otio-ale-adapter",
-    "otio-hls-playlist-adapter",
-    "otio-fcpx-xml-adapter",
     "otio-maya-sequencer-adapter",
     "otio-cmx3600-adapter",
     "otio-svg-adapter",
