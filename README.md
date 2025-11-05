@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xLight.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xDark.png">
-  <img alt="OpenTimelineIO Logo" src="./images/OpenTimelineIO@3xDark.png">
+  <img alt="OpenTimelineIO Logo" src="https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO@3xDark.png">
 </picture>
 
 [OpenTimelineIO](https://opentimeline.io) is an interchange format and API for
