@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "OpenTimelineIO-Plugins"
-version = "0.18.0"
+version = "0.19.0.dev1"
 description = "OpenTimelineIO with batteries included plug-ins."
 authors = [
   { name="Contributors to the OpenTimelineIO project", email="otio-discussion@lists.aswf.io" },
